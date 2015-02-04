@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report>
+   <report-name name="Campaign report" />
+   <date-range date="All Time" />
+   <table>
+      <columns>
+         <column name="campaignState" display="Campaign state" />
+         <column name="campaign" display="Campaign" />
+         <column name="budget" display="Budget" />
+         <column name="status" display="Status" />
+         <column name="campaignType" display="Campaign type" />
+         <column name="campaignSubtype" display="Campaign subtype" />
+         <column name="clicks" display="Clicks" />
+         <column name="impressions" display="Impressions" />
+         <column name="ctr" display="CTR" />
+         <column name="avgCPC" display="Avg. CPC" />
+         <column name="cost" display="Cost" />
+         <column name="avgPosition" display="Avg. position" />
+         <column name="conversions" display="Conversions" />
+         <column name="costConv" display="Cost / conv." />
+         <column name="convRate" display="Conv. rate" />
+         <column name="viewThroughConv" display="View-through conv." />
+         <column name="labels" display="Labels" />
+         <column name="estTotalConv" display="Est. total conv." />
+         <column name="uniqueCookies" display="Unique cookies" />
+         <column name="avgImprFreqPerCookie" display="Avg. impr. freq. per cookie" />
+         <column name="campaignID" display="Campaign ID" />
+         <column name="bidStrategyType" display="Bid Strategy Type" />
+         <column name="bidStrategyID" display="Bid Strategy ID" />
+         <column name="bidStrategyName" display="Bid Strategy Name" />
+         <column name="avgCPM" display="Avg. CPM" />
+         <column name="totalCost" display="Total cost" />
+         <column name="invalidClicks" display="Invalid clicks" />
+         <column name="invalidClickRate" display="Invalid click rate" />
+         <column name="costEstTotalConv" display="Cost / est. total conv." />
+         <column name="estTotalConvRate" display="Est. total conv. rate" />
+         <column name="estTotalConvValue" display="Est. total conv. value" />
+         <column name="estTotalConvValueCost" display="Est. total conv. value / cost" />
+         <column name="valueEstTotalConv" display="Value / est. total conv." />
+         <column name="estTotalConvValueClick" display="Est. total conv. value / click" />
+         <column name="estCrossDeviceConv" display="Est. cross-device conv." />
+         <column name="convertedClicks" display="Converted clicks" />
+         <column name="costConvertedClick" display="Cost / converted click" />
+         <column name="clickConversionRate" display="Click conversion rate" />
+         <column name="totalConvValue" display="Total conv. value" />
+         <column name="convValueCost" display="Conv. value / cost" />
+         <column name="convValueClick" display="Conv. value / click" />
+         <column name="valueConvertedClick" display="Value / converted click" />
+         <column name="valueConv" display="Value / conv." />
+         <column name="convOpt" display="Conv. (opt.)" />
+         <column name="totalConvValueOpt" display="Total conv. value (opt.)" />
+         <column name="costConvOpt" display="Cost / conv. (opt.)" />
+         <column name="convRateOpt" display="Conv. rate (opt.)" />
+         <column name="convValueCostOpt" display="Conv. value / cost (opt.)" />
+         <column name="convValueClickOpt" display="Conv. value / click (opt.)" />
+         <column name="valueConvOpt" display="Value / conv. (opt.)" />
+         <column name="phoneCallConv" display="Phone call conv." />
+      </columns>
+      <row campaignState="removed" campaign="NMAT" budget="300.00" status="campaign removed" campaignType="Search Network with Display Select" campaignSubtype="All features" clicks="549" impressions="335886" ctr="0.16%" avgCPC="9.46" cost="5,195.87" avgPosition="3.8" conversions="0" costConv="0.00" convRate="0.00%" viewThroughConv="0" labels="--" estTotalConv="0" uniqueCookies="--" avgImprFreqPerCookie="0.0" campaignID="69494264" bidStrategyType="auto" bidStrategyID="0" bidStartegyName="--" avgCPM="15.47" totalCost="5,195.87" invalidClicks="44" invalidClickRate="7.42%" costEstTotalConv="0.00" estTotalConvRate="0.00%" estTotalConvValue="0.0" estTotalConvValueCost="0.0" valueEstTotalConv="0.0" estTotalConvValueClick="0.0" estCrossDeviceConv="--" convertedClicks="0" costConvertedClick="0.00" clickConversionRate="0.00%" totalConvValue="0.0" convValueCost="0.0" convValueClick="0.0" valueConvertedClick="0.0" valueConv="0.0" convOpt="0" totalConvValueOpt="0.0" costConvOpt="0.00" convRateOpt="0.00%" convValueCostOpt="0.0" convValueClickOpt="0.0" valueConvOpt="0.0" phoneCallConv="0" />
+     <row campaignState="removed" campaign="AdStage Test Campaign" budget="30.00" status="campaign removed" campaignType="Search Network with Display Select" campaignSubtype="All features" clicks="0" impressions="0" ctr="0.00%" avgCPC="0.00" cost="0.00" avgPosition="0.0" conversions="0" costConv="0.00" convRate="0.00%" viewThroughConv="0" labels="--" estTotalConv="0" uniqueCookies="--" avgImprFreqPerCookie="0.0" campaignID="182309744" bidStrategyType="cpc" bidStrategyID="0" bidStrategyName="--" avgCPM="0.00" totalCost="0.00" invalidClicks="0" invalidClickRate="0.00%" costEstTotalConv="0.00" estTotalConvRate="0.00%" estTotalConvValue="0.0" estTotalConvValueCost="0.0" valueEstTotalConv="0.0" estTotalConvValueClick="0.0" estCrossDeviceConv="--" convertedClicks="0" costConvertedClick="0.00" clickConversionRate="0.00%" totalConvValue="0.0" convValueCost="0.0" convValueClick="0.0" valueConvertedClick="0.0" valueConv="0.0" convOpt="0" totalConvValueOpt="0.0" costConvOpt="0.00" convRateOpt="0.00%" convValueCostOpt="0.0" convValueClickOpt="0.0" valueConvOpt="0.0" phoneCallConv="0" />
+      <row campaignState="paused" campaign="[AV] Test 1" budget="1.00" status="campaign paused" campaignType="Search Network with Display Select" campaignSubtype="All features" clicks="0" impressions="0" ctr="0.00%" avgCPC="0.00" cost="0.00" avgPosition="0.0" conversions="0" costConv="0.00" convRate="0.00%" viewThroughConv="0" labels="--" estTotalConv="0" uniqueCookies="--" avgImprFreqPerCookie="0.0" campaignID="182396024" bidStrategyType="cpc" bidStrategyID="0" bidStrategyName="--" avgCPM="0.00" totalCost="0.00" invalidClicks="0" invalidClickRate="0.00%" costEstTotalConv="0.00" estTotalConvRate="0.00%" estTotalConvValue="0.0" estTotalConvValueCost="0.0" valueEstTotalConv="0.0" estTotalConvValueClick="0.0" estCrossDeviceConv="--" convertedClicks="0" costConvertedClick="0.00" clickConversionRate="0.00%" totalConvValue="0.0" convValueCost="0.0" convValueClick="0.0" valueConvertedClick="0.0" valueConv="0.0" convOpt="0" totalConvValueOpt="0.0" costConvOpt="0.00" convRateOpt="0.00%" convValueCostOpt="0.0" convValueClickOpt="0.0" valueConvOpt="0.0" phoneCallConv="0" />
+      <row campaignState="paused" campaign="Aastha Wahi" budget="30.00" status="campaign paused" campaignType="Search Only" campaignSubtype="All features" clicks="0" impressions="11" ctr="0.00%" avgCPC="0.00" cost="0.00" avgPosition="4.1" conversions="0" costConv="0.00" convRate="0.00%" viewThroughConv="0" labels="--" estTotalConv="0" uniqueCookies="--" avgImprFreqPerCookie="0.0" campaignID="182399624" bidStrategyType="cpc" bidStrategyID="0" bidStrategyName="--" avgCPM="0.00" totalCost="0.00" invalidClicks="0" invalidClickRate="0.00%" costEstTotalConv="0.00" estTotalConvRate="0.00%" estTotalConvValue="0.0" estTotalConvValueCost="0.0" valueEstTotalConv="0.0" estTotalConvValueClick="0.0" estCrossDeviceConv="--" convertedClicks="0" costConvertedClick="0.00" clickConversionRate="0.00%" totalConvValue="0.0" convValueCost="0.0" convValueClick="0.0" valueConvertedClick="0.0" valueConv="0.0" convOpt="0" totalConvValueOpt="0.0" costConvOpt="0.00" convRateOpt="0.00%" convValueCostOpt="0.0" convValueClickOpt="0.0" valueConvOpt="0.0" phoneCallConv="0" />
+      <row campaignState="paused" campaign="NestoLux" budget="110.00" status="campaign paused" campaignType="Search Only" campaignSubtype="All features" clicks="16" impressions="2403" ctr="0.67%" avgCPC="8.72" cost="139.46" avgPosition="4.4" conversions="0" costConv="0.00" convRate="0.00%" viewThroughConv="0" labels="--" estTotalConv="0" uniqueCookies="--" avgImprFreqPerCookie="0.0" campaignID="182612384" bidStrategyType="cpc" bidStrategyID="0" bidStrategyName="--" avgCPM="58.04" totalCost="139.46" invalidClicks="0" invalidClickRate="0.00%" costEstTotalConv="0.00" estTotalConvRate="0.00%" estTotalConvValue="0.0" estTotalConvValueCost="0.0" valueEstTotalConv="0.0" estTotalConvValueClick="0.0" estCrossDeviceConv="--" convertedClicks="0" costConvertedClick="0.00" clickConversionRate="0.00%" totalConvValue="0.0" convValueCost="0.0" convValueClick="0.0" valueConvertedClick="0.0" valueConv="0.0" convOpt="0" totalConvValueOpt="0.0" costConvOpt="0.00" convRateOpt="0.00%" convValueCostOpt="0.0" convValueClickOpt="0.0" valueConvOpt="0.0" phoneCallConv="0" />
+   </table>
+</report>
