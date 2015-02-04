@@ -24,7 +24,7 @@ ActiveRecord::Schema.define(version: 20150201083934) do
     t.integer  "impressions",                limit: 4
     t.decimal  "ctr",                                    precision: 4,  scale: 2
     t.decimal  "avg_cpc",                                precision: 10, scale: 2
-    t.string   "cost",                       limit: 255
+    t.decimal  "cost",                                   precision: 63, scale: 2
     t.decimal  "avg_position",                           precision: 2,  scale: 1
     t.integer  "conversions",                limit: 4
     t.decimal  "cost_conv",                              precision: 63, scale: 2
@@ -39,7 +39,7 @@ ActiveRecord::Schema.define(version: 20150201083934) do
     t.string   "bid_strategy_id",            limit: 255
     t.string   "bid_startegy_name",          limit: 255
     t.decimal  "avg_cpm",                                precision: 63, scale: 2
-    t.string   "total_cost",                 limit: 255
+    t.decimal  "total_cost",                             precision: 63, scale: 2
     t.integer  "invalid_clicks",             limit: 4
     t.decimal  "invalid_click_rate",                     precision: 63, scale: 2
     t.decimal  "cost_est_total_conv",                    precision: 63, scale: 2

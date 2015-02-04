@@ -11,7 +11,7 @@ class Campaign < ActiveRecord::Migration
       t.integer :impressions
       t.decimal :ctr,:precision => 4, :scale => 2
       t.decimal :avg_cpc,:precision => 10, :scale => 2
-      t.string :cost
+      t.decimal :cost,:precision => 63, :scale => 2
       t.decimal :avg_position,:precision => 2, :scale => 1      
       t.integer :conversions
       t.decimal :cost_conv,:precision => 63, :scale => 2
@@ -26,7 +26,7 @@ class Campaign < ActiveRecord::Migration
       t.string :bid_strategy_id
       t.string :bid_startegy_name
       t.decimal :avg_cpm,:precision => 63, :scale => 2
-      t.string :total_cost
+      t.decimal :total_cost,:precision => 63, :scale => 2
       t.integer :invalid_clicks
       t.decimal :invalid_click_rate,:precision => 63, :scale => 2
       t.decimal :cost_est_total_conv,:precision => 63, :scale => 2
